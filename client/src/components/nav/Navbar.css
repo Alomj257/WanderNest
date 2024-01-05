@@ -1,0 +1,89 @@
+/* Navbar.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: rgb(29, 28, 28); /* Black background color */
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.register-button,
+.login-button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.register-button {
+  background-color: #3498db; /* Blue color */
+}
+
+.login-button {
+  background-color: #e74c3c; /* Red color */
+}
+
+/* Hover styles */
+.register-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.login-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.language-switcher {
+  margin-left: 15px;
+}
+
+.language-dropdown {
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  color: #4caf50;
+}
